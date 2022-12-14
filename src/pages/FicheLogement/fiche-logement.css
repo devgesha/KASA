@@ -13,7 +13,7 @@
 .fichelogement__content{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
 }
 
 .fichelogement__informations{
@@ -43,9 +43,9 @@ p{
 .ficheLogement__hosts-and-rating{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    justify-content: end;
-    padding-left: 330px;
+   
+    justify-content: flex-end;
+    
     padding-bottom: 10px;
 }
 
