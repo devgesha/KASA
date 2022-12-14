@@ -1,0 +1,46 @@
+
+.host{
+    display: flex;
+    flex-direction: row;
+    color: #FF6060;
+}
+
+.host__name{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.host__name p {
+    margin: 0;
+    text-align: end;
+}
+
+.host__picture{
+    height: 64px;
+    width: 64px;
+    border-radius: 65px;
+}
+
+@media only screen and (max-width:  767px) {
+    
+    .host__name{
+        font-size: 12px;
+        align-items: flex-end;
+    }
+    .host__picture{
+        height: 32px;
+        width: 32px;
+        
+    }
+  
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  
+   
+  
+}

@@ -1,0 +1,23 @@
+.rating{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:  767px) {
+    
+
+    .rating{
+        height: 15px;
+    }
+    
+
+    
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   
+   
+  
+}

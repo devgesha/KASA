@@ -1,0 +1,36 @@
+.tag {
+    background: #FF6060;
+    height: auto;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 115px;
+    text-align: center;
+    padding: 5px 14px;
+}
+  
+.tag__text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width:  767px) {
+  .tag{
+    min-width: 84px;
+    border-radius: 5px;
+    padding: 4px 12px;
+  }
+
+  .tag__text{
+    font-size: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+
+
+}

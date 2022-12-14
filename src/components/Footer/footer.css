@@ -1,0 +1,23 @@
+.footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+    padding-top: 10px;
+}
+
+.foot__img {
+    font-size: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;margin-top: 10px;
+}
+
+.foot__text {
+    color: white;
+    font-size: 14px;
+    display: flex;margin-top: 15px;
+    justify-content: center;
+}
+
+
+

@@ -1,0 +1,102 @@
+
+ .slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 415px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.next-icon {
+  position: absolute;
+  right: 32px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  width: 47px;
+  height: 79px;
+}
+
+.previous-icon {
+  position: absolute;
+  left: 32px;
+  font-size: 3rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  width: 47px;
+  height: 79px;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  height: auto;
+  width: 100%;
+  opacity: 1;
+  transition-duration: 1s;
+  
+}
+
+.slide__counter{
+  display: none;
+}
+
+.counter__output{
+  display: block;
+  color: white ;
+  position: absolute;
+  font-size: 18px;
+  bottom: 20px;
+  font-weight: 500;
+  left: 50%;
+  text-shadow: 1px 1px 2px black;
+}
+
+@media only screen and (max-width:  767px) {
+    .image{
+      height: 255px;
+    }
+    .counter__output{
+      display: none;
+    }
+
+    
+    .previous-icon{
+      width: 12px;
+      height: 20px;
+    }
+
+    .next-icon{
+      width: 12px;
+      height: 20px;
+    }
+  
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  
+  .image{
+    height: 300px;
+  }
+
+  .previous-icon{
+    width: 12px;
+    height: 20px;
+  }
+
+  .next-icon{
+    width: 12px;
+    height: 20px;
+  }
+  
+}

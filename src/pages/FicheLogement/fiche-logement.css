@@ -1,0 +1,106 @@
+
+.ficheLogement{
+    color: #FF6060;
+    display: flex;
+    padding: 10px;
+}
+
+.bodylogement{
+    padding: 20px;
+    
+}
+
+.fichelogement__content{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fichelogement__informations{
+    display: flex;
+    flex-direction: column;
+    color: #FF6060;
+    font-weight: 500;
+    width: 50%;
+}
+
+.fichelogement__title{
+    font-size: 36px;
+}
+
+.fichelogement__location{
+    font-size: 18px
+}
+p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.fichelogement__tags{
+    display: flex;
+    flex-direction: row;
+}
+
+.ficheLogement__hosts-and-rating{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: end;
+    padding-left: 330px;
+    padding-bottom: 10px;
+}
+
+
+
+.ficheLogement__dropdowns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width:  767px) {
+    .fichelogement__content{
+        flex-direction: column;
+    }
+    
+    .fichelogement__informations{
+        width: 100%;
+    }
+
+    .ficheLogement__dropdowns{
+        flex-direction: column;
+    }
+    .ficheLogement__hosts-and-rating{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .fichelogement__title{
+        font-size: 18px;
+    }
+    
+    .fichelogement__location{
+        font-size: 14px
+    }
+    .fichelogement__tags{
+        flex-flow: wrap;
+    }
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .ficheLogement__hosts-and-rating{
+        padding-left: 200px;
+        justify-content: center;
+    }
+    
+    .ficheLogement__dropdowns{
+        flex-direction: column;
+    }
+   
+  
+}
