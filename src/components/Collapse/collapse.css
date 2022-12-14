@@ -89,7 +89,9 @@ button {
         width: 9px;
         height: 15px;
     }
-  
+    .half{
+        width: 100%;
+      }
 }
   
 @media only screen and (min-width: 768px) and (max-width: 992px) {
